@@ -14,4 +14,10 @@ public class Node {
         this.price = price;
         next = null;
     }
+
+    public Node(Node element) {
+        this.label = element.label;
+        this.price = element.price;
+        this.next = null;
+    }
 }

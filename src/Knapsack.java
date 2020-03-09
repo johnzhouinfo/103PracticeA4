@@ -71,7 +71,7 @@ public class Knapsack {
     }
 
     private void addNode(Node item) {
-        Node newNode = new Node(item.label, item.price);
+        Node newNode = new Node(item);
         if (result.next == null) {
             result.next = newNode;
         } else {
