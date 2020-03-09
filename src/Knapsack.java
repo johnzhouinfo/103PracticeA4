@@ -45,10 +45,6 @@ public class Knapsack {
         }
     }
 
-    public static void main(String[] arg) {
-        new Knapsack();
-    }
-
     private void initResultList() {
         result = new Node();
         flag = false;
@@ -95,5 +91,9 @@ public class Knapsack {
             p = p.next;
         }
         System.out.println("-----\n");
+    }
+
+    public static void main(String[] arg) {
+        new Knapsack();
     }
 }
